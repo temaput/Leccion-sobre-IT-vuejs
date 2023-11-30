@@ -1,5 +1,5 @@
 <template>
-  <h2 :style="props"><slot/></h2>
+  <h1 :style="props"><slot/></h1>
 </template>
 
 <script setup>
