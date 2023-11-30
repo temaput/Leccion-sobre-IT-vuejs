@@ -6,8 +6,8 @@
   const props = defineProps({
     textAlign: String,
     color: String, 
-    textIndent: Number,
+    textIndent: String,
     textDecoration: String,
-    marginBottom: Number,
+    marginBottom: String,
   })
 </script>
