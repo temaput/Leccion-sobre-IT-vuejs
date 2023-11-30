@@ -1,79 +1,72 @@
-<table>
-    <tr>
-        <th>Автор</th>
-        <th>Название</th>
-        <th>Год издания</th>
-        <th>Комната</th>
-        <th>Полка</th>
-    </tr>
-    <tr>
-        <td>Хорхе Луис Борхес</td>
-        <td>Книга песчинок</td>
-        <td>1941</td>
-        <td>А</td>
-        <td>5</td>
-    </tr>
-    <tr>
-        <td>Хуан Муренья</td>
-        <td>Вечные Лабиринты</td>
-        <td>1949</td>
-        <td>В</td>
-        <td>12</td>
-    </tr>
-    <tr>
-        <td>Цзэн Дун</td>
-        <td>Зеркала и Маски</td>
-        <td>1937</td>
-        <td>Г</td>
-        <td>7</td>
-    </tr>
-    <tr>
-        <td>Мирамар Мооре</td>
-        <td>Карта Империи</td>
-        <td>1952</td>
-        <td>Д</td>
-        <td>3</td>
-    </tr>
-    <tr>
-        <td>Алисио Маграна</td>
-        <td>Теорема Эфирных Ветров</td>
-        <td>1939</td>
-        <td>Е</td>
-        <td>10</td>
-    </tr>
-    <tr>
-        <td>Карлос Аргентино</td>
-        <td>Книга Вселенной</td>
-        <td>1945</td>
-        <td>Ж</td>
-        <td>8</td>
-    </tr>
-    <tr>
-        <td>Эрнесто Сабато</td>
-        <td>Сон о Героях и Монстрах</td>
-        <td>1950</td>
-        <td>З</td>
-        <td>6</td>
-    </tr>
-    <tr>
-        <td>Франц Кафка</td>
-        <td>Безымянный Том</td>
-        <td>1924</td>
-        <td>И</td>
-        <td>4</td>
-    </tr>
-    <tr>
-        <td>Пьер Менар</td>
-        <td>Дон Кихот (Точная Копия)</td>
-        <td>1934</td>
-        <td>К</td>
-        <td>2</td>
-    </tr>
-    <tr>
-        <td>Бартоломео Английский</td>
-        <td>Законы Темных Хроник</td>
-        <td>1942</td>
-        <td>Л</td>
-        <td>9</td>
-    </tr>
-</table>
+<library>
+    <book>
+        <author>Хорхе Луис Борхес</author>
+        <title>Книга песчинок</title>
+        <year>1941</year>
+        <room>А</room>
+        <shelf>5</shelf>
+    </book>
+    <book>
+        <author>Хуан Муренья</author>
+        <title>Вечные Лабиринты</title>
+        <year>1949</year>
+        <room>В</room>
+        <shelf>12</shelf>
+    </book>
+    <book>
+        <author>Цзэн Дун</author>
+        <title>Зеркала и Маски</title>
+        <year>1937</year>
+        <room>Г</room>
+        <shelf>7</shelf>
+    </book>
+    <book>
+        <author>Мирамар Мооре</author>
+        <title>Карта Империи</title>
+        <year>1952</year>
+        <room>Д</room>
+        <shelf>3</shelf>
+    </book>
+    <book>
+        <author>Алисио Маграна</author>
+        <title>Теорема Эфирных Ветров</title>
+        <year>1939</year>
+        <room>Е</room>
+        <shelf>10</shelf>
+    </book>
+    <book>
+        <author>Карлос Аргентино</author>
+        <title>Книга Вселенной</title>
+        <year>1945</year>
+        <room>Ж</room>
+        <shelf>8</shelf>
+    </book>
+    <book>
+        <author>Эрнесто Сабато</author>
+        <title>Сон о Героях и Монстрах</title>
+        <year>1950</year>
+        <room>З</room>
+        <shelf>6</shelf>
+    </book>
+    <book>
+        <author>Франц Кафка</author>
+        <title>Безымянный Том</title>
+        <year>1924</year>
+        <room>И</room>
+        <shelf>4</shelf>
+    </book>
+    <book>
+        <author>Пьер Менар</author>
+        <title>Дон Кихот (Точная Копия)</title>
+        <year>1934</year>
+        <room>К</room>
+        <shelf>2</shelf>
+    </book>
+    <book>
+        <author>Бартоломео Английский</author>
+        <title>Законы Темных Хроник</title>
+        <year>1942</year>
+        <room>Л</room>
+        <shelf>9</shelf>
+    </book>
+</library>

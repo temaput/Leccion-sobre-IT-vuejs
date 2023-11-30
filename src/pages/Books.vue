@@ -9,76 +9,19 @@
           <th>Комната</th>
           <th>Полка</th>
       </tr>
-      <tr>
-          <td>Хорхе Луис Борхес</td>
-          <td>Книга песчинок</td>
-          <td>1941</td>
-          <td>А</td>
-          <td>5</td>
-      </tr>
-      <tr>
-          <td>Хуан Муренья</td>
-          <td>Вечные Лабиринты</td>
-          <td>1949</td>
-          <td>В</td>
-          <td>12</td>
-      </tr>
-      <tr>
-          <td>Цзэн Дун</td>
-          <td>Зеркала и Маски</td>
-          <td>1937</td>
-          <td>Г</td>
-          <td>7</td>
-      </tr>
-      <tr>
-          <td>Мирамар Мооре</td>
-          <td>Карта Империи</td>
-          <td>1952</td>
-          <td>Д</td>
-          <td>3</td>
-      </tr>
-      <tr>
-          <td>Алисио Маграна</td>
-          <td>Теорема Эфирных Ветров</td>
-          <td>1939</td>
-          <td>Е</td>
-          <td>10</td>
-      </tr>
-      <tr>
-          <td>Карлос Аргентино</td>
-          <td>Книга Вселенной</td>
-          <td>1945</td>
-          <td>Ж</td>
-          <td>8</td>
-      </tr>
-      <tr>
-          <td>Эрнесто Сабато</td>
-          <td>Сон о Героях и Монстрах</td>
-          <td>1950</td>
-          <td>З</td>
-          <td>6</td>
-      </tr>
-      <tr>
-          <td>Франц Кафка</td>
-          <td>Безымянный Том</td>
-          <td>1924</td>
-          <td>И</td>
-          <td>4</td>
-      </tr>
-      <tr>
-          <td>Пьер Менар</td>
-          <td>Дон Кихот (Точная Копия)</td>
-          <td>1934</td>
-          <td>К</td>
-          <td>2</td>
-      </tr>
-      <tr>
-          <td>Бартоломео Английский</td>
-          <td>Законы Темных Хроник</td>
-          <td>1942</td>
-          <td>Л</td>
-          <td>9</td>
+    
+      <tr v-for="book in books">
+          <td>{{ book.author }}</td>
+          <td>{{ book.title }}</td>
+          <td>{{ book.year }}</td>
+          <td>{{ book.room }}</td>
+          <td>{{ book.shelf }}</td>
       </tr>
   </table>
 
 </template>
+
+<script setup>
+  import data from "/src/assets/books.json"
+  const books = data.library
+</script>
