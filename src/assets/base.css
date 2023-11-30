@@ -3,6 +3,28 @@ body {
   padding: 16px;
 
 }
-.title {
-  color: red;
+
+table {
+    width: 100%; /* Full-width */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 20px 0; /* Add some margin */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Add border to table cells */
+    padding: 8px; /* Add padding */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Light grey background for headers */
+    color: black; /* Black text for headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey background for even rows */
+}
+
+tr:hover {
+    background-color: #ddd; /* Darker grey background on hover */
 }

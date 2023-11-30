@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import App from './App.vue';
+import App from './index.vue';
 import './assets/base.css'
 
 const components = import.meta.globEager('./components/*.vue');
