@@ -1,6 +1,8 @@
 <template>
   <App v-if="path==='/'"/>
-  <Books v-else-if="path==='/books'"/>
+  <LayoutA v-else-if="path==='/books'">
+    <Books />
+  </LayoutA>
   
 </template>
 <script setup>
