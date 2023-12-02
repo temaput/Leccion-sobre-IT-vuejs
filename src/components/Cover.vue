@@ -6,15 +6,17 @@
 <script setup>
   import {computed} from "vue"
   const props = defineProps({
-    book: Object
+    book: Object,
+    large: Boolean
   })
   const src = computed(() =>`/src/assets/covers/${props.book.room}${props.book.shelf}.png`)
+  const size = computed(() => props.large ? "400px": "200px")
 </script>
 
 <style scoped>
   .cover {
-    width: 200px;
-    height: 200px;
+    width: v-bind(size);
+    height: v-bind(size);
     border-radius: 10px;
     overflow: hidden;
     
