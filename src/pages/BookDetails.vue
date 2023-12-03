@@ -17,7 +17,12 @@
 <script setup>
   import data from "/src/assets/books.json"
   const books = data.library
-  const book = books[7]
+  let book
+  for (let b of books) {
+    if (b.title === "Безымянный Том") {
+      book = b
+    }
+  }
 </script>
 <style scoped>
   .book-details {
